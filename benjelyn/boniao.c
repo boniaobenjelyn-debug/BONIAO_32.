@@ -21,7 +21,6 @@ int main() {
 
     } while (households < 1);
 
-    // Process each household
     for (i = 1; i <= households; i++) {
         do {
             printf("\nHousehold %d\n", i);
