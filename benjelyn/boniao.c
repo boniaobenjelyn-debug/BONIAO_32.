@@ -7,7 +7,7 @@ int main() {
     int unfulfilled = 0;
     int i;
 
-    // Input validation
+  
     do {
         printf("Enter number of households: ");
 
