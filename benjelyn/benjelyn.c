@@ -9,7 +9,6 @@ int main() {
     int unfulfilled = 0;
     int i;
 
-    // Input number of households
     do {
         printf("Enter number of households: ");
 
@@ -24,7 +23,6 @@ int main() {
 
     } while (households < 0);
 
-    // Process each household request
     for (i = 1; i <= households; i++) {
 
         do {
@@ -42,7 +40,6 @@ int main() {
 
         } while (request < 0);
 
-        // Release packs only if enough stock remains
         if (request <= remaining) {
             remaining = remaining - request;
             distributed = distributed + request;
