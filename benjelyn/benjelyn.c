@@ -15,7 +15,7 @@ int main() {
         if (scanf("%d", &households) != 1) {
             printf("Invalid input! Enter a whole number.\n");
 
-            while (getchar() != '\n');
+            while ( != '\n');
             households = -1;
         } else if (households < 0) {
             printf("Number of households cannot be negative.\n");
@@ -32,7 +32,7 @@ int main() {
             if (scanf("%d", &request) != 1) {
                 printf("Invalid input! Enter a whole number.\n");
 
-                while (getchar() != '\n');
+                while (!= '\n');
                 request = -1;
             } else if (request < 0) {
                 printf("Request cannot be negative.\n");
