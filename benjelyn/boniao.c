@@ -48,7 +48,7 @@ int main() {
         }
     }
 
-    // Final summary
+   
     printf("\n===== FINAL SUMMARY =====\n");
     printf("Total Packs Distributed: %d\n", distributed);
     printf("Remaining Packs: %d\n", remaining);
